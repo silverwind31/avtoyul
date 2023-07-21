@@ -1,0 +1,1 @@
+<?= \frontend\systemWidgets\Main::widget();?>

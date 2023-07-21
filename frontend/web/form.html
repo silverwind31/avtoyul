@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Lesson2</title>
+	</head>
+
+	<body>
+
+		<h1>Formalarb bilan ishlash</h1>
+
+
+		<fieldset>
+			<legend align="center">Forma</legend>
+			<form action="handler.php" method="POST" name="from">
+
+				<p>Isminigz </p>
+				<input type="text" name="ism" size="" maxlength="" placeholder="Ismingizni kiriting" >
+
+				<p>Tel raqamingiz </p>
+				<input  type="tel" name="telraqam"  placeholder="Tel raqamingini kiriting">
+
+				<p>Email </p>
+				<input  type="email" name="Email"  placeholder="Emailingizni kiriting">
+
+				<p>Tel raqamingiz </p>
+				<input  type="range" name="range" min="10" step="5" max="100">
+
+				<p>Jinsingiz </p>
+				<label>Erkak
+				<input type="radio" name="jins" value="erkak" ></label>
+				Ayol
+				<input type="radio" name="jins" value="ayol" >
+
+				<p>O'qigan ta'lim muassasalaringizni tanlang </p>
+				
+				<label for="maktab">Maktab</label>
+
+				<input  type="checkbox" name="maktab" value="maktab" >
+				Kollej
+				<input type="checkbox" name="kollej" value="kollej" id="maktab">
+
+				Inst
+				<input type="checkbox" name="inst" value="inst" >
+				Parol
+				<input type="password" name="parol" >
+
+				<P>YOSHINGIZNI tanlang</P>
+
+				<select name="yosh">
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+				</select>
+				<P>Viloyatingizni kiriting</P>
+				<input type="text" name="viloyat"  list="vil">
+				<datalist id="vil">
+					<option>Surxondaryo</option>
+					<option>Qashqadaryo</option>
+					<option>Navoiy</option>
+				</datalist>
+
+				<p>Xabar matnini kiriting</p>
+				<textarea name="xabarmatni" placeholder="Xabar matni..." rows="10" cols="20" maxlength="10" ></textarea>
+
+				<p>
+					<button>Send!!!</button>
+				</p>
+		
+
+
+			</form>
+		</fieldset>	
+
+	</body>
+
+</html>
